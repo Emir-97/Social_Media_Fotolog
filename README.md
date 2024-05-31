@@ -8,8 +8,8 @@
 ### -Libraries to use:
  pip install pillow
 ### -If you want to delete the files in socialApp/db.sqlite3 to have a new DB so you can add your own records. Then perform the following commands to generate your new database:
-  python3 manage.py makemigrations
-  python3 manage.py migrate
+  - python3 manage.py makemigrations
+  - python3 manage.py migrate
 ### -Create your own superuser to manage the project, configure it with your user.name, email and password:
   python manage.py createsuperuser
 ### -Run the program and copy the URL that comes up (usually localhost unless you modify it to your liking):
